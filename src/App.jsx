@@ -3,7 +3,7 @@ import "./index.css"; // Assuming you have additional global styles in index.css
 import EmailForm from "./Component/EmailForm";
 
 function App() {
-  const [isLogin, setIsLogin] = useState(false);
+  const [isLogin, setIsLogin] = useState(true);
 
   const handleClick = () => {
     setIsLogin(true);
